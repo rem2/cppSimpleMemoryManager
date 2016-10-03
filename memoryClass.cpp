@@ -15,7 +15,6 @@ class memoryFunctions
 			GetWindowThreadProcessId(WindowHandle, &processID);
 
 			return OpenProcess(PROCESS_ALL_ACCESS, false, processID);
-			 
 		}
 
 		DWORD setModuleAddress(std::string mName)
