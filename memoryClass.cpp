@@ -44,7 +44,6 @@ class memoryFunctions
 		HANDLE getHandle()
 		{
 		    return createHandle(); //this is used for reading/writing later
-			
 		}
 		DWORD getModuleAddress(std::string mName)
 		{
