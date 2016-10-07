@@ -4,7 +4,7 @@ A simple memory manager written in C++.  Allows you to create handles and read/w
 This is just a "beta" version. I will fix, clean this up, and include an example using this class at a later date.
 [I'm an inline-style link](https://www.google.com)
 # Documentation
-
+[I'm an inline-style link](https://www.google.com)
 [FindWindow:](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633499(v=vs.85).aspx
 [GetWindowThreadProcessId: ](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633522(v=vs.85).aspx
 [OpenProcess: ](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684320(v=vs.85).aspx
