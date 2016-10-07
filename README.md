@@ -5,7 +5,7 @@ This is just a "beta" version. I will fix, clean this up, and include an example
 
 # Documentation
 ```
-[FindWindow: ](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633499(v=vs.85).aspx
+[FindWindow:](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633499(v=vs.85).aspx
 [GetWindowThreadProcessId: ](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633522(v=vs.85).aspx
 [OpenProcess: ](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684320(v=vs.85).aspx
 [CreateToolhelp32Snapshot: ](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682489(v=vs.85).aspx
