@@ -49,17 +49,20 @@ class memoryFunctions
 		{
 		    return setModuleAddress(mName);
 		}
-
+		
+		//reading and writing improvents added 1/18/17 - makes it cleaner and easier to read when being used
 		//memory reading
-		void read(LPCVOID addr, int dataSize, LPVOID buf)
+		template <class r>
+		r read(DWORD dwAddress)
 		{
-		    SIZE_T size = 0;
-		    ReadProcessMemory(processHandle, addr, buf, dataSize, &size);
+	            r rData; //stores data
+		    ReadProcessMemory(process, (LPVOID)dwAddress, &rData, sizeof(r), NULL);
+		    return r; //returns the value of r from the address that we read
 		}
-
 		//memory writing
-		void write(LPVOID addr, int dataSize, LPCVOID data)
+		template <class w>
+		void write(DWORD dwAddress, w value)
 		{
-		    WriteProcessMemory(processHandle, addr, data, dataSize, 0);
+		    WriteProcessMemory(process, (LPVOID)dwAddress, &value, sizeof(w), NULL); //writeprocessmemory from microsoft
 		}
 };
